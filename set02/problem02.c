@@ -18,6 +18,7 @@ int check_scalene(int a, int b, int c)
     else{
         return isscalene=1;
     }
+    return isscalene;
 }
 void output(int a, int b, int c, int isscalene)
 {
