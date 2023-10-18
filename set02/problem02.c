@@ -13,17 +13,17 @@ int check_scalene(int a, int b, int c)
     int isscalene;
     if(a!=b)
     {
-        isscalene=0;
+       return isscalene=0;
     }
     else if(b!=c){
-        isscalene=0;
+        return isscalene=0;
     }
     else if(c!=0)
     {
     isscalene=0;
     }
     else{
-        isscalene!=0;
+        return isscalene!=0;
     }
     return isscalene;
 }
