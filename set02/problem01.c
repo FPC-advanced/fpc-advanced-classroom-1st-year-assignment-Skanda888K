@@ -1,3 +1,4 @@
+// Write a program to find the area of a triangle.
 #include<Stdio.h>
 
 void input(float *base, float *height)

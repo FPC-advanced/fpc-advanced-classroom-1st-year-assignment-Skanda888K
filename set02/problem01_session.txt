@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231017122658
+Start time: 20231018181817
 Username: DESKTOP-BN66QKJ\91821
 RunAs User: DESKTOP-BN66QKJ\91821
 Configuration Name: 
 Machine: DESKTOP-BN66QKJ (Microsoft Windows NT 10.0.19045.0)
 Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\91821\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 10732
+Process ID: 9676
 PSVersion: 5.1.19041.3031
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
@@ -17,12 +17,3 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem01_session.txt
-PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem01.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem01.exe" 2>&1
-
-PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem01.exe
-area of triangle of height 4.000000 and base 3.000000 is 12.000000
-PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231017122727
-**********************
