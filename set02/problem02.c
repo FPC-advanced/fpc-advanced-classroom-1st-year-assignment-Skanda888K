@@ -35,7 +35,7 @@ void output(int a, int b, int c, int isscalene)
     printf("The triangle with side %d %d %dis a scalene triangle ",a,b,c);
     
     }
-    else
+    else 
     {
 
         printf("It is not a scalene triangle");
