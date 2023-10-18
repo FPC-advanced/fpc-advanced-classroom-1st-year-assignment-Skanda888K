@@ -11,21 +11,13 @@ int input_side()
 int check_scalene(int a, int b, int c)
 {
     int isscalene;
-    if(a!=b)
+    if(a!=b!=c!=a)
     {
-       return isscalene=0;
-    }
-    else if(b!=c){
         return isscalene=0;
     }
-    else if(c!=0)
-    {
-    isscalene=0;
-    }
     else{
-        return isscalene!=0;
+        return isscalene=1;
     }
-    return isscalene;
 }
 void output(int a, int b, int c, int isscalene)
 {
