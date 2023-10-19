@@ -11,24 +11,26 @@ int input_side()
 int check_scalene(int a, int b, int c)
 {
     int isscalene;
-    if(a!=b!=c!=a)
+    if(a!=b&&b!=c&&c!=a)
     {
-        return isscalene=0;
-    }
-    else{
         return isscalene=1;
     }
-    return isscalene;
+   else 
+   {
+    return isscalene=0;
+   }
+   
+   
 }
 void output(int a, int b, int c, int isscalene)
 {
-    if(isscalene=0){
+    if(isscalene){
 
     
     printf("The triangle with side %d %d %dis a scalene triangle ",a,b,c);
     
     }
-    else 
+    else
     {
 
         printf("It is not a scalene triangle");
