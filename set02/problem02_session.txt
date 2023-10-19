@@ -17,3 +17,13 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem02_session.txt
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem01.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem01.exe" 2>&1
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem01.exe
+SKANDA KUMAR
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem02.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem02.exe" 2>&1
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem02.exe
+The sum of 3 and 4 is 7
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem03.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem03.exe" 2>&1
+
