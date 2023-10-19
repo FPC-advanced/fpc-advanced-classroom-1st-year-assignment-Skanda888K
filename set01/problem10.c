@@ -44,5 +44,3 @@ int main()
      output(str1, str2, result);
      return 0;
 }
-
-
