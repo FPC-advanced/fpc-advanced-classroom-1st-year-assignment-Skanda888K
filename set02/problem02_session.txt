@@ -142,3 +142,23 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (DSDADSSAD:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.exe" 2>&1
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.exe
+string 2-SADA greater than string 1-ASDADS
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.exe
+string 2-HELLO' greater than string 1-HELL
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem11.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem11.exe" 2>&1
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem11.exe
+(3.000000+4.000000i)+(5.000000+3.000000i)=(8.000000+7.000000i)
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc -g "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem12.c" -o "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem12.exe" 2>&1
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem12.exe
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem12.exe
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem12.exe
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc problem12.c
+
