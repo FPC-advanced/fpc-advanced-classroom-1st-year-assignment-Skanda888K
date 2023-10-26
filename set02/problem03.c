@@ -21,11 +21,11 @@ void output(int n, int result)
 {
     if(result==2)
     {
-        printf("Its not a composite number");
+        printf("%d is not a composite number",n);
 
     }
     else{
-        printf("Its a composite number");
+        printf("%d is a composite number",n);
 
     }
 }
