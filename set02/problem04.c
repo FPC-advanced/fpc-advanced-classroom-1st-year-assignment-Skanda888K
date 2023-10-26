@@ -37,6 +37,7 @@ int main()
     int n,a[n],sum;
     n=input_array_size();
     input_array(n,a);
+    sum=sum_composite_numbers(n, a[n]);
     output(sum);
     return 0;
 }
