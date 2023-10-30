@@ -29,3 +29,7 @@ At line:1 char:1
 
 collect2.exe: error: ld returned 1 exit status
 
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> gcc C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem04.c
+
+PS C:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K> .\a.exe
+
