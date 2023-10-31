@@ -1,0 +1,33 @@
+Compilation started at 10/31/2023, 11:57:28 AM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c: In function 'input_n':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:8:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the bumber of triangle");
+     ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:8:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:8:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:9:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",&n);
+     ^~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:9:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:9:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c: In function 'input_triangle':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:15:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter the base part");
+     ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:15:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:16:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%f",&x.area);
+     ^~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:16:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c: In function 'input_n_triangles':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:25:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("ENter the array elements");
+         ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:25:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:26:9: warning: incompatible implicit declaration of built-in function 'scanf'
+         scanf("%d",&t[i]);
+         ^~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem08.c:26:9: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 11:57:29 AM
