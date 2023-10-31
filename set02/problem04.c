@@ -17,17 +17,16 @@ void input_array(int n, int a[])
 
     }
 }
-int is_composite(int b)
-{
-    if(b<=1)
-    {        
-        return 0;
+int is_composite(int b) {
+    if (b <= 1) {
+        return 0; 
     }
-   for(int i=2;i<b;i++)
-   {
-    if(b%i==0);
-    return 1;
-   }
+    for (int i = 2; i < b; i++) {
+        if (b % i == 0) {
+            return 1; 
+        }
+    }
+    return 0; 
 }
 int sum_composite_numbers(int n, int a[n])
 {
@@ -38,8 +37,10 @@ for(int i=0;i<n;i++)
     {
         sum=sum+a[i];
     }
-    return sum;
+   
 }
+
+return sum;
  
 }
 void output(int sum)
@@ -48,8 +49,9 @@ void output(int sum)
 }
 int main()
 {
-    int sum,n,a[n];
-    n=input_array_size();
+    int    n=input_array_size();
+    int a[n],sum;
+ 
     input_array(n,a);
     sum=sum_composite_numbers(n,a);
    output(sum);
