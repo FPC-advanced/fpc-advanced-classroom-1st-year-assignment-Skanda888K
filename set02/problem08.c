@@ -23,6 +23,6 @@ void input_n_triangles(int n, Triangle t[n])
     int i;
     for(i=0;i<n;i++){
        
-        t[n]=input_triangle();
+        t[i]=input_triangle();
     }
 }
