@@ -22,7 +22,24 @@ void input_n_triangles(int n, Triangle t[n])
 {
     int i;
     for(i=0;i<n;i++){
-       
+       printf("Enter the values ");
         t[i]=input_triangle();
     }
+}
+void find_area(Triangle *t)
+{
+  t->area=0.5*t->base*t->altitude;
+}
+void find_n_areas(int n, Triangle t[n])
+{
+    int i;
+    for(i=0;i<n;i++)
+    {
+        find_area(&t[i]);
+    }
+}
+Triangle find_smallest_triangle(int n, Triangle t[n])
+{
+    int smallest;
+    
 }

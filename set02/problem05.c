@@ -13,7 +13,7 @@ int input(){
 int find_gcd(int a,int b){
     int i=0;
     int gcd;
-    for(i=1; i <= a && i <= b; ++i)
+    for(i=1; i <= a && i <= b; i++)
     {
         
         if(a%i==0 && b%i==0){
