@@ -1,18 +1,7 @@
 // Program to reverse a string 
 #include <stdio.h>
 
-void input_string(char *a);
-void str_reverse(char *str,char *str_rev);
-void output(char *a,char *reverse_a);
 
-int main() {
-    char z[50];
-    char y[50];
-    input_string(z);
-    str_reverse(z, y);
-    output(z, y);
-    return 0;
-}
 void input_string(char *a) {
     printf("Enter a string: ");
     gets(a);  
@@ -34,4 +23,12 @@ void output(char *a, char *reverse_a) {
 }
 
 
+int main() {
+    char z[50];
+    char y[50];
+    input_string(z);
+    str_reverse(z, y);
+    output(z, y);
+    return 0;
+}
 
