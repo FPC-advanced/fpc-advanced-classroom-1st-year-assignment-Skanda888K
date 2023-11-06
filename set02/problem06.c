@@ -4,7 +4,7 @@
 
 void input_string(char *a) {
     printf("Enter a string: ");
-    gets(a);  
+    scanf("%s",&a);
 }
 void str_reverse(char *str, char *str_rev) {
     int length = 0;
