@@ -18,4 +18,24 @@ int is_prime(int n)
             c++;
         }
     }
+    return c;
+}
+void output(int n, int result)
+{
+   if(result==2)
+   {
+    printf("%d is a prime number",n);
+   }
+   else{
+    printf("%d is not a prime number",n);
+
+   }
+}
+int main()
+{
+    int n,result;
+    n=input_number();
+    result=is_prime(n);
+    output(n,result);
+    return 0;
 }
