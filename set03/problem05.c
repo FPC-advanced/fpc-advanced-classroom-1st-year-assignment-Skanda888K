@@ -23,7 +23,7 @@ void erotosthenes_sieve(int n, int a[n])
   {
     if((i%2!=0)&&(i%3!=0)&&(i%5!=0)&&(i%7!=0))
     {
-        i=a[n];
+       a[n]=i;
     }
   }
 }
@@ -40,7 +40,7 @@ int main()
     n=input_array_size();
     int a[n];
      init_array( n,a);
- output(n, a);
+     output(n,a);
  return 0;
 
 }
