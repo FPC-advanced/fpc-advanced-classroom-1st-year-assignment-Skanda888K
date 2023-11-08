@@ -6,3 +6,5 @@ c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 C:\Users\91821\AppData\Local\Temp\ccO1O0Rc.o: In function `input_array_size':
 c:/Users/91821/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Skanda888K/set03/problem05.c:7: undefined reference to `prontf'
 collect2.exe: error: ld returned 1 exit status
+Compilation started at 11/8/2023, 7:32:32 PM
+Compilation finished at 11/8/2023, 7:32:33 PM

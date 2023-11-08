@@ -36,8 +36,9 @@ void output(int n, int a[n])
 }
 int main()
 {
-    int n,a[n];
+    int n;
     n=input_array_size();
+    int a[n];
      init_array( n,a);
  output(n, a);
  return 0;
