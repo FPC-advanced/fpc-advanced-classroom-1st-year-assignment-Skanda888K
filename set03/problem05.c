@@ -31,7 +31,7 @@ void output(int n, int a[n])
 {
     for(int i=0;i<n;i++)
     {
-        printf("The number of prime numbers between 2 to %d is %d",n,a[n]);
+      printf("%d",a[n]);
     }
 }
 int main()
