@@ -1,0 +1,8 @@
+Compilation started at 11/8/2023, 7:30:51 PM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem05.c: In function 'input_array_size':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem05.c:7:5: warning: implicit declaration of function 'prontf' [-Wimplicit-function-declaration]
+     prontf("Enter the range of array");
+     ^~~~~~
+C:\Users\91821\AppData\Local\Temp\ccO1O0Rc.o: In function `input_array_size':
+c:/Users/91821/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Skanda888K/set03/problem05.c:7: undefined reference to `prontf'
+collect2.exe: error: ld returned 1 exit status
