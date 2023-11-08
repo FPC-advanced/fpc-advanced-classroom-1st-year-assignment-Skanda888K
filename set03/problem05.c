@@ -13,7 +13,7 @@ void init_array(int n, int a[n])
 {
     for(int i=0;i<n;i++)
     {
-        a[i]=i;
+       i=a[i];
     }
     
 }
