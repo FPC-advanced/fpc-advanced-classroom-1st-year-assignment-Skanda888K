@@ -1,2 +1,18 @@
 Compilation started at 11/8/2023, 3:53:11 PM
 Compilation finished at 11/8/2023, 3:53:11 PM
+Compilation started at 11/8/2023, 4:19:07 PM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem05.c: In function 'main':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem05.c:17:13: warning: implicit declaration of function 'compare' [-Wimplicit-function-declaration]
+     largest=compare(x,y,z);
+             ^~~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem05.c:18:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(x,y,z,largest);
+     ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem05.c: At top level:
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem05.c:43:6: warning: conflicting types for 'output'
+ void output(int a, int b, int c, int lg)
+      ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem05.c:18:5: note: previous implicit declaration of 'output' was here
+     output(x,y,z,largest);
+     ^~~~~~
+Compilation finished at 11/8/2023, 4:19:08 PM
