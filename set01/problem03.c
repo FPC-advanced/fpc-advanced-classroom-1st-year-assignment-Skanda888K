@@ -20,10 +20,10 @@ void output(int a, int b, int sum)
 }
 int main()
 {
-    int x,y,z;
-    x=input();
-    y=input();
-    z=add(x,y);
-    output(x,y,z);
+    int a,b,sum;
+    a=input();
+    b=input();
+    sum=add(a,b);
+    output(a,b,sum);
     return 0;    
 }
