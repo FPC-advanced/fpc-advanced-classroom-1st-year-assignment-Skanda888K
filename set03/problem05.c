@@ -21,7 +21,7 @@ void erotosthenes_sieve(int n, int a[n])
 {
   for(int i=2;i<n;i++)
   {
-    if((i%2!=0)&&(i%3!=0)&&(i%5!=0)&&(i%7!=0))
+    if((a[i]%2!=0)&&(a[i]%3!=0)&&(a[i]%5!=0)&&(a[i]%7!=0))
     {
        a[n]=i;
     }
