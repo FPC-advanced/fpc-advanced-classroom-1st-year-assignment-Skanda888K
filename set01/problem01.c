@@ -2,7 +2,9 @@
 #include<stdio.h>
 int main()
 {
-    printf("SKANDA KUMAR");
+    char x;
+    scanf("%c",&x);
+    printf("%c",x);
     return 0;
     
 }
