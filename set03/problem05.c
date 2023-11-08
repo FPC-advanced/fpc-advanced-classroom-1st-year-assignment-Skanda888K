@@ -4,7 +4,7 @@
 int input_array_size()
 {
     int n;
-    prontf("Enter the range of array");
+    printf("Enter the range of array");
     scanf("%d",&n);
     return n;
 }
