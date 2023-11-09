@@ -23,7 +23,7 @@ void erotosthenes_sieve(int n, int a[n])
   {
    if(n%a[i]!=0)
     {
-      n=a[n];
+     a[n]=n;
     }
   }
 }
