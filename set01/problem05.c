@@ -11,30 +11,35 @@ int input()
 int compare(int a, int b, int c)
 {
     int lg;
-    if(a>b&&a>c)
+
+    if(a>=b&&a>=c)
     {
         lg=a;
     }
-    else if(b>a&&b>c)
+     if(b>=a&&b>=c)
     {
         lg=b;
     }
-    else if(c>a&&c>b)
+    else 
     {
         lg=c;
-    }
+           }
     
-    else{
-        printf("They are equal\n");
-
-    }
+    
+ 
+    
     return lg;
+
+
+
 }
 void output(int a, int b, int c, int lg)
 {
-    printf("The largest b/w %d,%d and %d is%d",a,b,c,lg);
 
-}
+    printf("The largest b/w %d,%d and %d is%d",a,b,c,lg);
+ }
+
+
 int main ()
 {
     int x,y,z,largest;

@@ -5,29 +5,25 @@ void input(int *a,int *b,int *c)
     printf("Enter 3 numbers\n");
     scanf("%d%d%d",a,b,c);
 }
-void compare(int a, int b, int c, int *largest)
+void compare(int a, int b, int c, int *lg)
 
 {
-if(a>b&&a>c)
-{
-    *largest=a;
-    
-}
-else if(b>a&&b>c)
-{
-    *largest=b;
-  
-}
-else if(c>a&&c>b)
-{
-    *largest=c;
-    
-}
-else{
-   printf("THEY ARE EQUAL");
-}
+    if(a>=b&&a>=c)
+    {
+        *lg=a;
+    }
+     if(b>=a&&b>=c)
+    {
+        *lg=b;
+    }
+    else 
+    {
+        *lg=c;
+           }
 
 }
+
+
 void output(int a, int b, int c, int largest)
 {
    

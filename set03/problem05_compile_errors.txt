@@ -16,3 +16,20 @@ Compilation started at 11/8/2023, 7:38:07 PM
 Compilation finished at 11/8/2023, 7:38:07 PM
 Compilation started at 11/9/2023, 9:35:42 AM
 Compilation finished at 11/9/2023, 9:35:43 AM
+Compilation started at 11/9/2023, 11:22:39 AM
+Compilation finished at 11/9/2023, 11:22:40 AM
+Compilation started at 11/10/2023, 9:36:30 PM
+Compilation finished at 11/10/2023, 9:36:30 PM
+Compilation started at 11/11/2023, 11:50:31 AM
+Compilation finished at 11/11/2023, 11:50:33 AM
+Compilation started at 11/11/2023, 11:50:55 AM
+Compilation finished at 11/11/2023, 11:50:56 AM
+Compilation started at 11/12/2023, 9:06:16 AM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem05.c: In function 'erotosthenes_sieve':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem05.c:27:18: warning: 'return' with a value, in function returning void
+          return a[n];
+                 ~^~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem05.c:20:6: note: declared here
+ void erotosthenes_sieve(int n, int a[n])
+      ^~~~~~~~~~~~~~~~~~
+Compilation finished at 11/12/2023, 9:06:17 AM
