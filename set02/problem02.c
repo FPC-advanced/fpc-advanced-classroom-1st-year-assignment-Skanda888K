@@ -10,8 +10,14 @@ int input_side()
 }
 int check_scalene(int a, int b, int c)
 {
+    
     int isscalene;
-    if(a!=b&&b!=c&&c!=a)
+ 
+    if(a==0||b==0||c==0)
+    {
+      return isscalene=2;
+    }
+    else if(a!=b&&b!=c&&c!=a)
     {
         return isscalene=1;
     }
@@ -19,12 +25,15 @@ int check_scalene(int a, int b, int c)
    {
     return isscalene=0;
    }
-   
-   
+     
 }
+
 void output(int a, int b, int c, int isscalene)
 {
-    if(isscalene){
+    if(isscalene==2){
+        printf("It does not form a triangle");
+    }
+   else if(isscalene==1){
 
     
     printf("The triangle with side %d %d %dis a scalene triangle ",a,b,c);

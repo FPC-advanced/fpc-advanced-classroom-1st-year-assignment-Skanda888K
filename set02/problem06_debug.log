@@ -1,0 +1,105 @@
++r
+Starting program: c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02/./problem06.exe 
+[New Thread 2240.0x12a0]
+[New Thread 2240.0x1ef4]
+[Inferior 1 (process 2240) exited normally]
++b main
+Breakpoint 1 at 0x40151f: file c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem06.c, line 29.
++r
+Starting program: c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02/./problem06.exe 
+[New Thread 2720.0x47c]
+[New Thread 2720.0x7fc]
+
+Breakpoint 1, main ()
+    at c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem06.c:29
+warning: Source file is more recent than executable.
+29	    input_string(z);
++n
+30	    str_reverse(z, y);
++step
+str_reverse (str=0x61feee "hrllo", str_rev=0x61febc "üþa")
+    at c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem06.c:10
+10	    int length = 0;
++n
+11	    while (str[length] != '\0') {
++n
+12	        length++;
++n
+11	    while (str[length] != '\0') {
++n
+12	        length++;
++n
+11	    while (str[length] != '\0') {
++n
+12	        length++;
++n
+11	    while (str[length] != '\0') {
++n
+12	        length++;
++n
+11	    while (str[length] != '\0') {
++n
+12	        length++;
++n
+11	    while (str[length] != '\0') {
++n
+15	    for (int i = 0; i < length; i++) {
++n
+16	        str_rev[i] = str[length - 1 - i];
++print length -1 - i
+$1 = 4
++print lenght
+No symbol "lenght" in current context.
++print length
+$2 = 5
++n
+15	    for (int i = 0; i < length; i++) {
++n
+16	        str_rev[i] = str[length - 1 - i];
++n
+15	    for (int i = 0; i < length; i++) {
++print length -1 - i
+$3 = 3
++n
+16	        str_rev[i] = str[length - 1 - i];
++n
+15	    for (int i = 0; i < length; i++) {
++n
+16	        str_rev[i] = str[length - 1 - i];
++n
+15	    for (int i = 0; i < length; i++) {
++print length -1 -i
+$4 = 1
++n
+16	        str_rev[i] = str[length - 1 - i];
++n
+15	    for (int i = 0; i < length; i++) {
++n
+18	    str_rev[length] = '\0';  
++print lenght -1 -i
+No symbol "lenght" in current context.
++n
+19	}
++n
+main ()
+    at c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set02\problem06.c:31
+31	    output(z, y);
++n
+32	    return 0;
++n
+33	}
++cd "c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01"
+"c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01": Invalid argument.
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[New Thread 2720.0x1a88]
+[Inferior 1 (process 2720) exited normally]
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem06_debug.log.
++set trace-commands on
++q

@@ -25,7 +25,7 @@ int find_gcd(int a,int b){
 }
 
 void output(int a,int b,int gcd){
-    printf("The output is %d , %d = %d",a,b,gcd);
+    printf("The GCD of %d , %d = %d",a,b,gcd);
 }
 
 int main()
