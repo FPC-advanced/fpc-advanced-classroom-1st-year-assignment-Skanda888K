@@ -1,16 +1,16 @@
 #include<stdio.h>
 
-int input()
+float input()
 {
-    int x;
+    float x;
     printf("enter the number");
-    scanf("%d",&x);
+    scanf("%f",&x);
     return x;
 
 }
-int square_root(int n)
+float square_root( float n)
 {
-    float x,small=0; 
+    float x,small=0;
     x=n;
     while((x*x-n)>small)
     {
@@ -18,13 +18,13 @@ int square_root(int n)
     }
     return x;
 }
-void output(int n,float sqrroot)
+void output(float n,float sqrroot)
 {
-    printf("the square root of %d is %f",n,sqrroot);
+    printf("the square root of %f is %f",n,sqrroot);
 }
 int main()
 {
-    int n;float sqrroot;
+    float n,sqrroot;
     n=input();
     sqrroot=square_root(n);
     output(n,sqrroot);
