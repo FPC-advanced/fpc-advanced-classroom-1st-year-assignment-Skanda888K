@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-float input()
+int input()
 {
-    float x;
+    int x;
     printf("enter the number");
     scanf("%f",&x);
     return x;
 
 }
-float square_root( float n)
+int square_root(int n)
 {
     float x,small=0;
     x=n;
