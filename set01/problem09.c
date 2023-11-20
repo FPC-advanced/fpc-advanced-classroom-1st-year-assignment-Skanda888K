@@ -4,7 +4,7 @@ int input()
 {
     int x;
     printf("enter the number");
-    scanf("%f",&x);
+    scanf("%d",&x);
     return x;
 
 }
@@ -18,9 +18,9 @@ int square_root(int n)
     }
     return x;
 }
-void output(float n,float sqrroot)
+void output(int n,float sqrroot)
 {
-    printf("the square root of %f is %f",n,sqrroot);
+    printf("the square root of %d is %f",n,sqrroot);
 }
 int main()
 {
