@@ -10,7 +10,7 @@ int input()
 }
 int square_root(int n)
 {
-    float x,small=0;
+    float x,small=0; 
     x=n;
     while((x*x-n)>small)
     {
@@ -24,7 +24,7 @@ void output(float n,float sqrroot)
 }
 int main()
 {
-    float n,sqrroot;
+    int n;float sqrroot;
     n=input();
     sqrroot=square_root(n);
     output(n,sqrroot);
