@@ -10,7 +10,7 @@ float input()
 }
 float square_root( float n)
 {
-    float x,small=0;
+    float x,small=0.00001;
     x=n;
     while((x*x-n)>small)
     {
