@@ -10,25 +10,22 @@ int input()
 }
 int compare(int a, int b, int c)
 {
-    int lg;
+    
 
     if(a>=b&&a>=c)
     {
-        lg=a;
+        return a;
     }
-     if(b>=a&&b>=c)
+     else if(b>=a&&b>=c)
     {
-        lg=b;
+        return b;
     }
     else 
     {
-        lg=c;
+        return c;
            }
     
     
- 
-    
-    return lg;
 
 
 
