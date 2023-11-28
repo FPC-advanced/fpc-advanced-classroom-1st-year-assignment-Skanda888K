@@ -2,7 +2,7 @@
 int input()
 {
     int n;
-    printf("Enter the range pf numers ");
+    
     scanf("%d",&n);
     return n;
 
