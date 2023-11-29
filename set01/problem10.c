@@ -13,10 +13,9 @@ int stringcompare(char *string1, char *string2)
         if (*string1 != *string2)
         {
          return *string1 - *string2;
+        }
+      
     }
-    *string1++;
-    *string2++;
-}
 return *string1 - *string2;
 }
 void output(char *string1, char *string2, int result)

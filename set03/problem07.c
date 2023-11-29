@@ -10,5 +10,5 @@ typedef struct line {
 Point input_point()
 {
    
-    printf()
+    printf("enter the number");
 }

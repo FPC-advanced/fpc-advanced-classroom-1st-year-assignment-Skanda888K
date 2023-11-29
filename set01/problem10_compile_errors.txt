@@ -2,3 +2,32 @@ Compilation started at 11/28/2023, 9:28:11 AM
 Compilation finished at 11/28/2023, 9:28:13 AM
 Compilation started at 11/28/2023, 9:48:54 AM
 Compilation finished at 11/28/2023, 9:48:55 AM
+Compilation started at 11/29/2023, 12:53:56 PM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c: In function 'main':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:42:32: warning: passing argument 1 of 'stringcompare' makes integer from pointer without a cast [-Wint-conversion]
+     int result = stringcompare(str1, str2);
+                                ^~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:8:5: note: expected 'char' but argument is of type 'char *'
+ int stringcompare(char string1, char string2)
+     ^~~~~~~~~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:42:38: warning: passing argument 2 of 'stringcompare' makes integer from pointer without a cast [-Wint-conversion]
+     int result = stringcompare(str1, str2);
+                                      ^~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:8:5: note: expected 'char' but argument is of type 'char *'
+ int stringcompare(char string1, char string2)
+     ^~~~~~~~~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:43:13: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+      output(str1, str2, result);
+             ^~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:21:6: note: expected 'char' but argument is of type 'char *'
+ void output(char string1, char string2, int result)
+      ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:43:19: warning: passing argument 2 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+      output(str1, str2, result);
+                   ^~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set01\problem10.c:21:6: note: expected 'char' but argument is of type 'char *'
+ void output(char string1, char string2, int result)
+      ^~~~~~
+Compilation finished at 11/29/2023, 12:53:57 PM
+Compilation started at 11/29/2023, 1:13:42 PM
+Compilation finished at 11/29/2023, 1:13:43 PM
