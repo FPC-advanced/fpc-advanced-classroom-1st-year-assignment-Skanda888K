@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<math.h>
 float input()
 {
     float x;
@@ -10,10 +10,11 @@ float input()
 }
 float square_root( float n)
 {
-    float x,small=0.00001;
+    float x,small=0.00001,y;
     x=n;
-    while((x*x-n)>small)
+    while(fabs(x-y)>small)
     {
+        y=x;
         x=0.5*(x+n/x);
     }
     return x;
