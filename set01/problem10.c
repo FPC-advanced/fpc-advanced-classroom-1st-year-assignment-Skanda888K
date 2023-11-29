@@ -9,10 +9,12 @@ int stringcompare(char *string1, char *string2)
 {
     int result;
     while(*string1 !='\0'&&*string2 !='\0')
-    
+    {
         if (*string1 != *string2)
-        
-    
+        {
+         return *string1 - *string2;
+        }
+    }
 return *string1 - *string2;
 }
 void output(char *string1, char *string2, int result)
