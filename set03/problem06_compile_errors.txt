@@ -1,0 +1,18 @@
+Compilation started at 12/1/2023, 3:56:27 PM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c: In function 'sub_str_index':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int a = strlen(string);
+             ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c:15:13: note: include '<string.h>' or provide a declaration of 'strlen'
+Compilation finished at 12/1/2023, 3:56:28 PM
+Compilation started at 12/1/2023, 3:57:11 PM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c: In function 'sub_str_index':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int M = strlen(string);
+             ^~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\set03\problem06.c:15:13: note: include '<string.h>' or provide a declaration of 'strlen'
+Compilation finished at 12/1/2023, 3:57:12 PM
+Compilation started at 12/2/2023, 9:09:12 AM
+Compilation finished at 12/2/2023, 9:09:13 AM
