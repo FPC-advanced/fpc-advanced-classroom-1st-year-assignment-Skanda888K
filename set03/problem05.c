@@ -1,40 +1,49 @@
-// Write a program to find all the prime numbers between 2 to n Eratosthenes Sieve method.
-#include<stdio.h>
-#include<math.h>
-int input_array_size()
-{
+//5. Write a program to find all the prime numbers between 2 to n Eratosthenes Sieve method.
+
+
+#include <stdio.h>
+
+
+int input_array_size() {
     int n;
-    printf("Enter the range of array");
-    scanf("%d",&n);
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
     return n;
 }
 
-void init_array(int n, int a[n])
-{
-    for(int i=0;i<n;i++)
-    {
-      a[i]=i;
-    }
-    
-}
-void erotosthenes_sieve(int n, int a[n])
-{
- 
-}
-void output(int n, int a[n])
-{
-    for(int i=0;i<n;i++)
-    {
-      printf("%d",a[n]);
+void init_array(int n, int a[n]) {
+    for (int i = 2; i <= n; i++) {
+        a[i] = 1; 
     }
 }
-int main()
-{
-    int n;
-    n=input_array_size();
-    int a[n];
-     init_array( n,a);
-     output(n,a);
- return 0;
 
+void eratosthenes_sieve(int n, int a[n]) {
+    for (int i = 2; i * i <= n; i++) {
+        if (a[i] == 1) {
+            for (int j = i * i; j <= n; j += i) {
+                a[j] = 0;
+            }
+        }
+    }
+}
+
+void output(int n, int a[n]) {
+    printf("Prime numbers between 2 and %d are: ", n);
+    for (int i = 2; i <= n; i++) {
+        if (a[i] == 1) {
+            printf("%d, ", i);
+        }
+    }
+    printf("\n");
+}
+
+int main() {
+    int n = input_array_size();
+    int a[n];
+
+    init_array(n, a);
+    eratosthenes_sieve(n, a);
+    output(n, a);
+
+return 0;
 }
