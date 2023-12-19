@@ -25,7 +25,7 @@ return result;
 }
 void output(int n, int result)
 {
-  if(result=1)
+  if(result==1)
 {
 	printf("The number is  factorial");
 }
