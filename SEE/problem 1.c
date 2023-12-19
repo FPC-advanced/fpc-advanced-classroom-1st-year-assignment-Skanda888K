@@ -11,8 +11,9 @@ int input()
 {
 int result, a=1;
 
-for(int i=1;i<=n;i++)
+for(int i=1;i<=n;i++){
 a*=i;
+}
 if(a==n)
 {
   result=1;
