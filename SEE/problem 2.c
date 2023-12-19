@@ -49,8 +49,8 @@ int main()
     int n;
     n = input();
     int a[n], b[n];
-    input_array(n, a);
-    check_fact(n, a, b);
-    output(n, b);
+    input_array(n,a);
+    check_fact(n,a,b);
+    output(n,b);
     return 0;
 }
