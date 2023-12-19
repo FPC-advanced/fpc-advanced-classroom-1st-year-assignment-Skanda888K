@@ -19,3 +19,5 @@ c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void check_fact(int n,int a[n],int *b[n])
       ^~~~~~~~~~
 Compilation finished at 12/19/2023, 2:11:20 PM
+Compilation started at 12/19/2023, 2:18:52 PM
+Compilation finished at 12/19/2023, 2:18:53 PM
