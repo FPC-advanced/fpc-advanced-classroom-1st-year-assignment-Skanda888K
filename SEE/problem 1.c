@@ -15,10 +15,10 @@ for(int i=1;i<=n;i++)
 a*=i;
 if(a==n)
 {
-  result=1;
+  result==1;
 }
 else{
-  result=0;
+  result==0;
 }
 return result;
 }
