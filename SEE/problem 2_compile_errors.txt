@@ -1,2 +1,21 @@
 Compilation started at 12/19/2023, 2:09:31 PM
 Compilation finished at 12/19/2023, 2:09:31 PM
+Compilation started at 12/19/2023, 2:11:19 PM
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c: In function 'check_fact':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c:34:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+         b[i] = fact;
+              ^
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c: In function 'main':
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c:48:19: warning: passing argument 2 of 'input_array' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_array(n,&a);
+                   ^
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c:16:6: note: expected 'int **' but argument is of type 'int (*)[(sizetype)(n)]'
+ void input_array(int n,int *a[n])
+      ^~~~~~~~~~~
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c:49:20: warning: passing argument 3 of 'check_fact' from incompatible pointer type [-Wincompatible-pointer-types]
+     check_fact(n,a,&b);
+                    ^
+c:\Users\91821\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Skanda888K\SEE\problem 2.c:24:6: note: expected 'int **' but argument is of type 'int (*)[(sizetype)(n)]'
+ void check_fact(int n,int a[n],int *b[n])
+      ^~~~~~~~~~
+Compilation finished at 12/19/2023, 2:11:20 PM
