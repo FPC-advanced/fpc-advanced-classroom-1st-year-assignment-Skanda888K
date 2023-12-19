@@ -40,7 +40,7 @@ void output(int n, int b[n])
 {
     for (int i = 0; i < n; i++)
     {
-        printf("The factorial of %d is %d\n", i, b[i]);
+        printf("The factorial of numbers are %d\n", b[i]);
     }
 }
 
